@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		837752741DB1730B00EDFCA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837752731DB1730B00EDFCA1 /* AppDelegate.swift */; };
+		837752761DB1730B00EDFCA1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837752751DB1730B00EDFCA1 /* ViewController.swift */; };
+		837752791DB1730B00EDFCA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 837752771DB1730B00EDFCA1 /* Main.storyboard */; };
+		8377527B1DB1730B00EDFCA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8377527A1DB1730B00EDFCA1 /* Assets.xcassets */; };
+		8377527E1DB1730B00EDFCA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8377527C1DB1730B00EDFCA1 /* LaunchScreen.storyboard */; };
+		837752891DB1730B00EDFCA1 /* Big_Bad_WolfTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837752881DB1730B00EDFCA1 /* Big_Bad_WolfTests.swift */; };
+		837752941DB1730B00EDFCA1 /* Big_Bad_WolfUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837752931DB1730B00EDFCA1 /* Big_Bad_WolfUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		837752851DB1730B00EDFCA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 837752681DB1730B00EDFCA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8377526F1DB1730B00EDFCA1;
+			remoteInfo = "Big Bad Wolf";
+		};
+		837752901DB1730B00EDFCA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 837752681DB1730B00EDFCA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8377526F1DB1730B00EDFCA1;
+			remoteInfo = "Big Bad Wolf";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		837752701DB1730B00EDFCA1 /* Big Bad Wolf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Big Bad Wolf.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		837752731DB1730B00EDFCA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		837752751DB1730B00EDFCA1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		837752781DB1730B00EDFCA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8377527A1DB1730B00EDFCA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8377527D1DB1730B00EDFCA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8377527F1DB1730B00EDFCA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		837752841DB1730B00EDFCA1 /* Big Bad WolfTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Big Bad WolfTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		837752881DB1730B00EDFCA1 /* Big_Bad_WolfTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Big_Bad_WolfTests.swift; sourceTree = "<group>"; };
+		8377528A1DB1730B00EDFCA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8377528F1DB1730B00EDFCA1 /* Big Bad WolfUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Big Bad WolfUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		837752931DB1730B00EDFCA1 /* Big_Bad_WolfUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Big_Bad_WolfUITests.swift; sourceTree = "<group>"; };
+		837752951DB1730B00EDFCA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8377526D1DB1730B00EDFCA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		837752811DB1730B00EDFCA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8377528C1DB1730B00EDFCA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		837752671DB1730B00EDFCA1 = {
+			isa = PBXGroup;
+			children = (
+				837752721DB1730B00EDFCA1 /* Big Bad Wolf */,
+				837752871DB1730B00EDFCA1 /* Big Bad WolfTests */,
+				837752921DB1730B00EDFCA1 /* Big Bad WolfUITests */,
+				837752711DB1730B00EDFCA1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		837752711DB1730B00EDFCA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				837752701DB1730B00EDFCA1 /* Big Bad Wolf.app */,
+				837752841DB1730B00EDFCA1 /* Big Bad WolfTests.xctest */,
+				8377528F1DB1730B00EDFCA1 /* Big Bad WolfUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		837752721DB1730B00EDFCA1 /* Big Bad Wolf */ = {
+			isa = PBXGroup;
+			children = (
+				837752731DB1730B00EDFCA1 /* AppDelegate.swift */,
+				837752751DB1730B00EDFCA1 /* ViewController.swift */,
+				837752771DB1730B00EDFCA1 /* Main.storyboard */,
+				8377527A1DB1730B00EDFCA1 /* Assets.xcassets */,
+				8377527C1DB1730B00EDFCA1 /* LaunchScreen.storyboard */,
+				8377527F1DB1730B00EDFCA1 /* Info.plist */,
+			);
+			path = "Big Bad Wolf";
+			sourceTree = "<group>";
+		};
+		837752871DB1730B00EDFCA1 /* Big Bad WolfTests */ = {
+			isa = PBXGroup;
+			children = (
+				837752881DB1730B00EDFCA1 /* Big_Bad_WolfTests.swift */,
+				8377528A1DB1730B00EDFCA1 /* Info.plist */,
+			);
+			path = "Big Bad WolfTests";
+			sourceTree = "<group>";
+		};
+		837752921DB1730B00EDFCA1 /* Big Bad WolfUITests */ = {
+			isa = PBXGroup;
+			children = (
+				837752931DB1730B00EDFCA1 /* Big_Bad_WolfUITests.swift */,
+				837752951DB1730B00EDFCA1 /* Info.plist */,
+			);
+			path = "Big Bad WolfUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8377526F1DB1730B00EDFCA1 /* Big Bad Wolf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 837752981DB1730B00EDFCA1 /* Build configuration list for PBXNativeTarget "Big Bad Wolf" */;
+			buildPhases = (
+				8377526C1DB1730B00EDFCA1 /* Sources */,
+				8377526D1DB1730B00EDFCA1 /* Frameworks */,
+				8377526E1DB1730B00EDFCA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Big Bad Wolf";
+			productName = "Big Bad Wolf";
+			productReference = 837752701DB1730B00EDFCA1 /* Big Bad Wolf.app */;
+			productType = "com.apple.product-type.application";
+		};
+		837752831DB1730B00EDFCA1 /* Big Bad WolfTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8377529B1DB1730B00EDFCA1 /* Build configuration list for PBXNativeTarget "Big Bad WolfTests" */;
+			buildPhases = (
+				837752801DB1730B00EDFCA1 /* Sources */,
+				837752811DB1730B00EDFCA1 /* Frameworks */,
+				837752821DB1730B00EDFCA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				837752861DB1730B00EDFCA1 /* PBXTargetDependency */,
+			);
+			name = "Big Bad WolfTests";
+			productName = "Big Bad WolfTests";
+			productReference = 837752841DB1730B00EDFCA1 /* Big Bad WolfTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8377528E1DB1730B00EDFCA1 /* Big Bad WolfUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8377529E1DB1730B00EDFCA1 /* Build configuration list for PBXNativeTarget "Big Bad WolfUITests" */;
+			buildPhases = (
+				8377528B1DB1730B00EDFCA1 /* Sources */,
+				8377528C1DB1730B00EDFCA1 /* Frameworks */,
+				8377528D1DB1730B00EDFCA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				837752911DB1730B00EDFCA1 /* PBXTargetDependency */,
+			);
+			name = "Big Bad WolfUITests";
+			productName = "Big Bad WolfUITests";
+			productReference = 8377528F1DB1730B00EDFCA1 /* Big Bad WolfUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		837752681DB1730B00EDFCA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Chris Jarvi";
+				TargetAttributes = {
+					8377526F1DB1730B00EDFCA1 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					837752831DB1730B00EDFCA1 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8377526F1DB1730B00EDFCA1;
+					};
+					8377528E1DB1730B00EDFCA1 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8377526F1DB1730B00EDFCA1;
+					};
+				};
+			};
+			buildConfigurationList = 8377526B1DB1730B00EDFCA1 /* Build configuration list for PBXProject "Big Bad Wolf" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 837752671DB1730B00EDFCA1;
+			productRefGroup = 837752711DB1730B00EDFCA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8377526F1DB1730B00EDFCA1 /* Big Bad Wolf */,
+				837752831DB1730B00EDFCA1 /* Big Bad WolfTests */,
+				8377528E1DB1730B00EDFCA1 /* Big Bad WolfUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8377526E1DB1730B00EDFCA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8377527E1DB1730B00EDFCA1 /* LaunchScreen.storyboard in Resources */,
+				8377527B1DB1730B00EDFCA1 /* Assets.xcassets in Resources */,
+				837752791DB1730B00EDFCA1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		837752821DB1730B00EDFCA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8377528D1DB1730B00EDFCA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8377526C1DB1730B00EDFCA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				837752761DB1730B00EDFCA1 /* ViewController.swift in Sources */,
+				837752741DB1730B00EDFCA1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		837752801DB1730B00EDFCA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				837752891DB1730B00EDFCA1 /* Big_Bad_WolfTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8377528B1DB1730B00EDFCA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				837752941DB1730B00EDFCA1 /* Big_Bad_WolfUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		837752861DB1730B00EDFCA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8377526F1DB1730B00EDFCA1 /* Big Bad Wolf */;
+			targetProxy = 837752851DB1730B00EDFCA1 /* PBXContainerItemProxy */;
+		};
+		837752911DB1730B00EDFCA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8377526F1DB1730B00EDFCA1 /* Big Bad Wolf */;
+			targetProxy = 837752901DB1730B00EDFCA1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		837752771DB1730B00EDFCA1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				837752781DB1730B00EDFCA1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8377527C1DB1730B00EDFCA1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8377527D1DB1730B00EDFCA1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		837752961DB1730B00EDFCA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		837752971DB1730B00EDFCA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		837752991DB1730B00EDFCA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Big Bad Wolf/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BBW.Big-Bad-Wolf";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8377529A1DB1730B00EDFCA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Big Bad Wolf/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BBW.Big-Bad-Wolf";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		8377529C1DB1730B00EDFCA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Big Bad WolfTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BBW.Big-Bad-WolfTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Big Bad Wolf.app/Big Bad Wolf";
+			};
+			name = Debug;
+		};
+		8377529D1DB1730B00EDFCA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Big Bad WolfTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BBW.Big-Bad-WolfTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Big Bad Wolf.app/Big Bad Wolf";
+			};
+			name = Release;
+		};
+		8377529F1DB1730B00EDFCA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Big Bad WolfUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BBW.Big-Bad-WolfUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Big Bad Wolf";
+			};
+			name = Debug;
+		};
+		837752A01DB1730B00EDFCA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Big Bad WolfUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BBW.Big-Bad-WolfUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Big Bad Wolf";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8377526B1DB1730B00EDFCA1 /* Build configuration list for PBXProject "Big Bad Wolf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				837752961DB1730B00EDFCA1 /* Debug */,
+				837752971DB1730B00EDFCA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		837752981DB1730B00EDFCA1 /* Build configuration list for PBXNativeTarget "Big Bad Wolf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				837752991DB1730B00EDFCA1 /* Debug */,
+				8377529A1DB1730B00EDFCA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8377529B1DB1730B00EDFCA1 /* Build configuration list for PBXNativeTarget "Big Bad WolfTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8377529C1DB1730B00EDFCA1 /* Debug */,
+				8377529D1DB1730B00EDFCA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8377529E1DB1730B00EDFCA1 /* Build configuration list for PBXNativeTarget "Big Bad WolfUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8377529F1DB1730B00EDFCA1 /* Debug */,
+				837752A01DB1730B00EDFCA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 837752681DB1730B00EDFCA1 /* Project object */;
+}
