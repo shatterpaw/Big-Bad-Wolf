@@ -1,0 +1,6 @@
+framework module Pods_Big_Bad_WolfUITests {
+  umbrella header "Pods-Big Bad WolfUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

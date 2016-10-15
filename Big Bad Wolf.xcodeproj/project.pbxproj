@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2633FCFD654396879EB7CE9F /* Pods_Big_Bad_Wolf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6E546F4573BB5C332D95499 /* Pods_Big_Bad_Wolf.framework */; };
+		427D104CE007DF3BEAC11D4E /* Pods_Big_Bad_WolfUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3456666067339CCE03B6EB23 /* Pods_Big_Bad_WolfUITests.framework */; };
 		837752741DB1730B00EDFCA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837752731DB1730B00EDFCA1 /* AppDelegate.swift */; };
 		837752761DB1730B00EDFCA1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837752751DB1730B00EDFCA1 /* ViewController.swift */; };
 		837752791DB1730B00EDFCA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 837752771DB1730B00EDFCA1 /* Main.storyboard */; };
@@ -14,6 +16,8 @@
 		8377527E1DB1730B00EDFCA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8377527C1DB1730B00EDFCA1 /* LaunchScreen.storyboard */; };
 		837752891DB1730B00EDFCA1 /* Big_Bad_WolfTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837752881DB1730B00EDFCA1 /* Big_Bad_WolfTests.swift */; };
 		837752941DB1730B00EDFCA1 /* Big_Bad_WolfUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837752931DB1730B00EDFCA1 /* Big_Bad_WolfUITests.swift */; };
+		837752A21DB1732100EDFCA1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837752A11DB1732100EDFCA1 /* Constants.swift */; };
+		C593E7E91E06D5E08819C3F8 /* Pods_Big_Bad_WolfTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D5AACDC20D82773289E76CF /* Pods_Big_Bad_WolfTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F9F93BD7BA0E992A96830AC /* Pods-Big Bad Wolf.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Big Bad Wolf.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Big Bad Wolf/Pods-Big Bad Wolf.debug.xcconfig"; sourceTree = "<group>"; };
+		12A0CF2A166F9BB810E74B2F /* Pods-Big Bad WolfTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Big Bad WolfTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Big Bad WolfTests/Pods-Big Bad WolfTests.release.xcconfig"; sourceTree = "<group>"; };
+		2AC4A48BB0FD5848150FFCC1 /* Pods-Big Bad Wolf.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Big Bad Wolf.release.xcconfig"; path = "Pods/Target Support Files/Pods-Big Bad Wolf/Pods-Big Bad Wolf.release.xcconfig"; sourceTree = "<group>"; };
+		3456666067339CCE03B6EB23 /* Pods_Big_Bad_WolfUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Big_Bad_WolfUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		837752701DB1730B00EDFCA1 /* Big Bad Wolf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Big Bad Wolf.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		837752731DB1730B00EDFCA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		837752751DB1730B00EDFCA1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		837752751DB1730B00EDFCA1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "View Controllers/ViewController.swift"; sourceTree = "<group>"; };
 		837752781DB1730B00EDFCA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8377527A1DB1730B00EDFCA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8377527D1DB1730B00EDFCA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +55,12 @@
 		8377528F1DB1730B00EDFCA1 /* Big Bad WolfUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Big Bad WolfUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		837752931DB1730B00EDFCA1 /* Big_Bad_WolfUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Big_Bad_WolfUITests.swift; sourceTree = "<group>"; };
 		837752951DB1730B00EDFCA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		837752A11DB1732100EDFCA1 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8A224B6C0B9403C19DE7C663 /* Pods-Big Bad WolfUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Big Bad WolfUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Big Bad WolfUITests/Pods-Big Bad WolfUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8D5AACDC20D82773289E76CF /* Pods_Big_Bad_WolfTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Big_Bad_WolfTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B761BE82114A6EAF22CBD248 /* Pods-Big Bad WolfTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Big Bad WolfTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Big Bad WolfTests/Pods-Big Bad WolfTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D7A783A4D7E76ECB5BCD9E11 /* Pods-Big Bad WolfUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Big Bad WolfUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Big Bad WolfUITests/Pods-Big Bad WolfUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E6E546F4573BB5C332D95499 /* Pods_Big_Bad_Wolf.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Big_Bad_Wolf.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2633FCFD654396879EB7CE9F /* Pods_Big_Bad_Wolf.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C593E7E91E06D5E08819C3F8 /* Pods_Big_Bad_WolfTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +84,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				427D104CE007DF3BEAC11D4E /* Pods_Big_Bad_WolfUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2FD72485B7E4C4F2BDF3D67D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6E546F4573BB5C332D95499 /* Pods_Big_Bad_Wolf.framework */,
+				8D5AACDC20D82773289E76CF /* Pods_Big_Bad_WolfTests.framework */,
+				3456666067339CCE03B6EB23 /* Pods_Big_Bad_WolfUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6FA7ADCAC2EEB7E7459720A9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F9F93BD7BA0E992A96830AC /* Pods-Big Bad Wolf.debug.xcconfig */,
+				2AC4A48BB0FD5848150FFCC1 /* Pods-Big Bad Wolf.release.xcconfig */,
+				B761BE82114A6EAF22CBD248 /* Pods-Big Bad WolfTests.debug.xcconfig */,
+				12A0CF2A166F9BB810E74B2F /* Pods-Big Bad WolfTests.release.xcconfig */,
+				D7A783A4D7E76ECB5BCD9E11 /* Pods-Big Bad WolfUITests.debug.xcconfig */,
+				8A224B6C0B9403C19DE7C663 /* Pods-Big Bad WolfUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		837752671DB1730B00EDFCA1 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +121,8 @@
 				837752871DB1730B00EDFCA1 /* Big Bad WolfTests */,
 				837752921DB1730B00EDFCA1 /* Big Bad WolfUITests */,
 				837752711DB1730B00EDFCA1 /* Products */,
+				6FA7ADCAC2EEB7E7459720A9 /* Pods */,
+				2FD72485B7E4C4F2BDF3D67D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +139,16 @@
 		837752721DB1730B00EDFCA1 /* Big Bad Wolf */ = {
 			isa = PBXGroup;
 			children = (
+				837752A61DB1738100EDFCA1 /* View Controllers */,
+				837752A51DB1737B00EDFCA1 /* Routes */,
+				837752A41DB1737400EDFCA1 /* Reducers */,
+				837752A31DB1736E00EDFCA1 /* Actions */,
 				837752731DB1730B00EDFCA1 /* AppDelegate.swift */,
-				837752751DB1730B00EDFCA1 /* ViewController.swift */,
 				837752771DB1730B00EDFCA1 /* Main.storyboard */,
 				8377527A1DB1730B00EDFCA1 /* Assets.xcassets */,
 				8377527C1DB1730B00EDFCA1 /* LaunchScreen.storyboard */,
 				8377527F1DB1730B00EDFCA1 /* Info.plist */,
+				837752A11DB1732100EDFCA1 /* Constants.swift */,
 			);
 			path = "Big Bad Wolf";
 			sourceTree = "<group>";
@@ -125,6 +171,35 @@
 			path = "Big Bad WolfUITests";
 			sourceTree = "<group>";
 		};
+		837752A31DB1736E00EDFCA1 /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Actions;
+			sourceTree = "<group>";
+		};
+		837752A41DB1737400EDFCA1 /* Reducers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Reducers;
+			sourceTree = "<group>";
+		};
+		837752A51DB1737B00EDFCA1 /* Routes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Routes;
+			sourceTree = "<group>";
+		};
+		837752A61DB1738100EDFCA1 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				837752751DB1730B00EDFCA1 /* ViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +207,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 837752981DB1730B00EDFCA1 /* Build configuration list for PBXNativeTarget "Big Bad Wolf" */;
 			buildPhases = (
+				A77EC164629EA4C6B94BA855 /* [CP] Check Pods Manifest.lock */,
 				8377526C1DB1730B00EDFCA1 /* Sources */,
 				8377526D1DB1730B00EDFCA1 /* Frameworks */,
 				8377526E1DB1730B00EDFCA1 /* Resources */,
+				5A6E4879F9AC4B4CBA248B04 /* [CP] Embed Pods Frameworks */,
+				EA0FF87323FAE198482AB1D1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +227,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8377529B1DB1730B00EDFCA1 /* Build configuration list for PBXNativeTarget "Big Bad WolfTests" */;
 			buildPhases = (
+				D6A5BC2E14D3C098733DF0E9 /* [CP] Check Pods Manifest.lock */,
 				837752801DB1730B00EDFCA1 /* Sources */,
 				837752811DB1730B00EDFCA1 /* Frameworks */,
 				837752821DB1730B00EDFCA1 /* Resources */,
+				2A0CEBB14281E468C356BF64 /* [CP] Embed Pods Frameworks */,
+				37EFD0E8FF966381EA698A1C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +248,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8377529E1DB1730B00EDFCA1 /* Build configuration list for PBXNativeTarget "Big Bad WolfUITests" */;
 			buildPhases = (
+				4E5D7C99367FD22226AC5B41 /* [CP] Check Pods Manifest.lock */,
 				8377528B1DB1730B00EDFCA1 /* Sources */,
 				8377528C1DB1730B00EDFCA1 /* Frameworks */,
 				8377528D1DB1730B00EDFCA1 /* Resources */,
+				C6065A36B18A228FEAD867E5 /* [CP] Embed Pods Frameworks */,
+				9F1DE0E0A35FEE0BDBD69A72 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,6 +338,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2A0CEBB14281E468C356BF64 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Big Bad WolfTests/Pods-Big Bad WolfTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		37EFD0E8FF966381EA698A1C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Big Bad WolfTests/Pods-Big Bad WolfTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E5D7C99367FD22226AC5B41 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5A6E4879F9AC4B4CBA248B04 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Big Bad Wolf/Pods-Big Bad Wolf-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F1DE0E0A35FEE0BDBD69A72 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Big Bad WolfUITests/Pods-Big Bad WolfUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A77EC164629EA4C6B94BA855 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C6065A36B18A228FEAD867E5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Big Bad WolfUITests/Pods-Big Bad WolfUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6A5BC2E14D3C098733DF0E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EA0FF87323FAE198482AB1D1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Big Bad Wolf/Pods-Big Bad Wolf-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8377526C1DB1730B00EDFCA1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -261,6 +483,7 @@
 			files = (
 				837752761DB1730B00EDFCA1 /* ViewController.swift in Sources */,
 				837752741DB1730B00EDFCA1 /* AppDelegate.swift in Sources */,
+				837752A21DB1732100EDFCA1 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,6 +631,7 @@
 		};
 		837752991DB1730B00EDFCA1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F9F93BD7BA0E992A96830AC /* Pods-Big Bad Wolf.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Big Bad Wolf/Info.plist";
@@ -420,6 +644,7 @@
 		};
 		8377529A1DB1730B00EDFCA1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AC4A48BB0FD5848150FFCC1 /* Pods-Big Bad Wolf.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Big Bad Wolf/Info.plist";
@@ -432,6 +657,7 @@
 		};
 		8377529C1DB1730B00EDFCA1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B761BE82114A6EAF22CBD248 /* Pods-Big Bad WolfTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -446,6 +672,7 @@
 		};
 		8377529D1DB1730B00EDFCA1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12A0CF2A166F9BB810E74B2F /* Pods-Big Bad WolfTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -460,6 +687,7 @@
 		};
 		8377529F1DB1730B00EDFCA1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7A783A4D7E76ECB5BCD9E11 /* Pods-Big Bad WolfUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "Big Bad WolfUITests/Info.plist";
@@ -473,6 +701,7 @@
 		};
 		837752A01DB1730B00EDFCA1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A224B6C0B9403C19DE7C663 /* Pods-Big Bad WolfUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "Big Bad WolfUITests/Info.plist";
@@ -503,6 +732,7 @@
 				8377529A1DB1730B00EDFCA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8377529B1DB1730B00EDFCA1 /* Build configuration list for PBXNativeTarget "Big Bad WolfTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +741,7 @@
 				8377529D1DB1730B00EDFCA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8377529E1DB1730B00EDFCA1 /* Build configuration list for PBXNativeTarget "Big Bad WolfUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +750,7 @@
 				837752A01DB1730B00EDFCA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
